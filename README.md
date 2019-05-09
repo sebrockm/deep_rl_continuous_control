@@ -34,9 +34,21 @@ The task is episodic. The problem is considered solved once the average score of
 
 ## How to use
 
+### Installing dependencies
+
+- Download ML-Agents Toolkit beta 0.4.0a.
+   - https://github.com/Unity-Technologies/ml-agents/releases/tag/0.4.0a
+- install it by running following command, with activated conda environment in the directory of ml-agents, that contains the setup.py.
+   - pip install -e . .
+- install PyTorch.
+    - conda install pytorch-cpu torchvision-cpu -c pytorch
+- Get Unity Environment designed for this project.
+   - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip).
+    - Place the file in the DRLND GitHub repository, in the `deep_rl_continuous_control/` folder, and unzip (or decompress) the file. 
+
 ### Instructions
 
-Follow the instructions in `Continuous_Control.ipynb`. It provides links to the necessary installation precedure.
+Follow the instructions in `Continuous_Control.ipynb`. It also provides links to the necessary installation precedure.
 Then, execute the cells to train the agent.
 
 ### Expected Result
